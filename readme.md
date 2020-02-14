@@ -17,7 +17,7 @@ Main workfiles are:
 	⋅⋅* tidyverse
 	⋅⋅* readr
 	
-`Dataset`directory contains the source data from the url described below in Course Project assignment. Unfortunately the X_train.txt file was too big to be included into Githib without LFS (which I believe costs some money) so that is lefout from the file lists for now.
+`Dataset`directory contains the source data from the url described below in Course Project assignment. This directory is untouched after downloading and extracting the original zip package.
 	
 
 ### Course Project assignment:
