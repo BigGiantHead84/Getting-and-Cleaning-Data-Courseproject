@@ -2,10 +2,13 @@ This codebook describes variables inside the output dataset *"means_by_activity_
 The variables of the output dataset are:
 
 **Grouping variables:**
-*"activity"* -- Describes the activity performed in human-readable form
-*"subject"* -- id of the subject who performaed the activity
 
-**Normal variables**, each value in in each variable depicts the mean of that variable, grouped by grouping variables. The original dataset from which the mean was calculated, come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ, measured by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto in Smartlab - Non Linear Complex Systems Laboratory in Genova, Italy.
+* "activity" -- Describes the activity performed in human-readable form
+* "subject" -- id of the subject who performaed the activity
+
+**Normal variables**
+
+each value in in each variable depicts the mean of that variable, grouped by grouping variables. The original dataset from which the mean was calculated, come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ, measured by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto in Smartlab - Non Linear Complex Systems Laboratory in Genova, Italy.
 
 **Quote from the readme from the original dataset authors***
 
