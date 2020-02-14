@@ -46,7 +46,7 @@ run_analysis <- function() {
     #Merge the two datasets on all columns on all variables that have the same name
     x_joined <<- left_join(xtrain_stdmean,xtest_stdmean,by=variable_names)
     
-    #drop activity code variable since we already have human-readable activities
+    #drop activity code variable since we already have human-readable afnectivities
     x_joined <<- x_joined %>% select(-one_of("activity_code"))
     
     #Group the merged dataset based on activity and subjet
@@ -55,6 +55,6 @@ run_analysis <- function() {
     #create a new tidy dataset that includes caculated arithmetic mean (=average) of each variable for each group
     x_joined_mean_by_group <<- x_joined %>% summarise_all("mean")
     
-    write.table(x_joined_mean_by_group,"means_by_activity_and_subject.txt")
+    write.table(x_joined_mean_by_group,"means_by_activity_and_subject.txt",row.names = FALSE)
 }
 
