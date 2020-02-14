@@ -11,10 +11,10 @@ ___
 This repository contains work done for courseproject in "Getting and Cleaning Data" offered by John Hopkins University via Coursera.org. 
 
 Main workfiles are:
-run_analysis.R -- R script that contains all needed functionalities to read below data files into R and process them as requested by project assignment. NOTE: R script except that following packages and their dependencies are installes:
-	"dplyr"
-	"tidyverse"
-	"readr"
+`run_analysis.R` -- R script that contains all needed functionalities to read below data files into R and process them as requested by project assignment. NOTE: R script except that following packages and their dependencies are installes:
+	..*"dplyr"
+	..*"tidyverse"
+	..*"readr"
 	
 
 ### Course Project assignment:
