@@ -1,4 +1,4 @@
-This codebook describes variables inside the output dataset "means_by_activity_and_subject.txt" and how the dataset is comprised of.
+This codebook describes variables inside the output dataset *"means_by_activity_and_subject.txt"* and how the dataset is comprised of.
 The variables of the output dataset are:
 
 **Grouping variables:**
