@@ -1,3 +1,6 @@
+# Getting and Cleaning data course project readme
+
+
 ==================================================================
 Getting and Cleaning Data (offered by John Hopkins University)
 Course Project
@@ -6,7 +9,6 @@ Course project author:
 Jukka Hilvonen (jukkahilvonen@gmail.com)
 ==================================================================
 
-#Readme
 This repository contains work done for courseproject in "Getting and Cleaning Data" offered by John Hopkins University via Coursera.org. 
 
 Main workfiles are:
