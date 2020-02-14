@@ -13,10 +13,12 @@ This repository contains work done for courseproject in "Getting and Cleaning Da
 Main workfiles are:
 
 `run_analysis.R` -- R script that contains all needed functionalities to read below data files into R and process them as requested by project assignment. NOTE: R script except that following packages and their dependencies are installed:
-	⋅⋅* dplyr
-	⋅⋅* tidyverse
-	⋅⋅* readr
-	
+* dplyr
+* tidyverse
+* readr
+
+`means_by_activity_and_subject.txt`-- And output dataset written by run_analysis.R script. This file contains the expected output as per the course project assignment.
+
 `Dataset`directory contains the source data from the url described below in Course Project assignment. This directory is untouched after downloading and extracting the original zip package.
 	
 
